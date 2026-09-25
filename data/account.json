@@ -1,0 +1,45 @@
+{
+    "account": {
+        "account_number": "1234567890",
+        "name": "Test User",
+        "pin": "1234",
+        "balance": 244409.0
+    },
+    "transactions": [
+        {
+            "type": "Deposit",
+            "amount": 56.0,
+            "balance_after": 56.0,
+            "description": "",
+            "date": "2026-09-21 21:04:51"
+        },
+        {
+            "type": "Withdrawal",
+            "amount": 42.0,
+            "balance_after": 14.0,
+            "description": "",
+            "date": "2026-09-21 21:04:59"
+        },
+        {
+            "type": "Transfer",
+            "amount": 5.0,
+            "balance_after": 9.0,
+            "description": "To: Test Recevier",
+            "date": "2026-09-21 21:08:23"
+        },
+        {
+            "type": "Deposit",
+            "amount": 250000.0,
+            "balance_after": 250009.0,
+            "description": "",
+            "date": "2026-09-24 09:43:02"
+        },
+        {
+            "type": "Withdrawal",
+            "amount": 5600.0,
+            "balance_after": 244409.0,
+            "description": "",
+            "date": "2026-09-24 09:43:21"
+        }
+    ]
+}
